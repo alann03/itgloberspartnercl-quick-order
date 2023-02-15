@@ -1,0 +1,46 @@
+.quickOrder__container {
+  max-width       : 1200px;
+  background-color: #FFFFFF;
+  border          : 2px solid #9E9E9E;
+  padding         : 2%;
+}
+
+.quickOrder__title {
+  text-align    : center;
+  color         : #1D1D1D;
+  text-transform: uppercase;
+  margin        : 0 0 1% 0;
+}
+
+.quickOrder__form--container {
+  display        : flex;
+  justify-content: center;
+  align-items    : center;
+  flex-direction : column;
+  gap            : 15px;
+}
+
+.quickOrder__container--label {
+  padding-right: 10px;
+}
+
+.quickOrder__button--submit {
+  background-color: #00C0FF;
+  cursor: pointer;
+    padding: 15px;
+    border: none;
+    color: #FFFFFF;
+    border-radius: 25px;
+    font-weight: 700;
+}
+
+.quickOrder__button--submit:hover {
+  background-color: #009ACC;
+}
+
+@media (max-width: 450px) {
+  .quickOrder__label-input--container {
+    display: flex;
+    flex-direction: column;
+  }
+}
